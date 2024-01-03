@@ -1,0 +1,51 @@
+@use '../variables';
+@use '../mixins/font';
+@use '../mixins/display';
+@use '../functions/converts';
+
+
+//home
+.home > .title, .home > .description, .home > .contact-email{
+    opacity: 0;
+}
+
+.home > img{
+    opacity: 0;
+}
+
+
+//services
+.services > .main {
+    opacity: 0;
+}
+
+.services > .cards > .card{
+    opacity: 0;
+}
+
+
+//our-works
+.our-works > .main, .our-works > .cards > .card:nth-child(odd) {
+    opacity: 0;
+}
+
+.our-works > .container-more-info, .our-works > .cards > .card:nth-child(even) {
+    opacity: 0;
+}
+
+
+// clients
+.clients > .text-container {
+    opacity: 0;
+}
+
+.clients > .img-container img{
+    opacity: 0;
+}
+
+
+//comments
+
+.comments > .client-container{
+    opacity: 0;
+}
